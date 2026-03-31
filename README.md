@@ -1,6 +1,5 @@
 # LSOD
 Due to a lot of work recently, I haven't had time to sort out the data yet.
-If your paper requires our data, please contact 2723419691@qq.com.
 
 
 (1)Our code and dataset will be made public in this project after the paper is accepted.  
