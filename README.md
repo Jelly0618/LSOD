@@ -1,5 +1,5 @@
 # LSOD
-Due to a lot of work recently, I haven't had time to sort out the data yet.
+
 
 
 (1)Our code and dataset will be made public in this project after the paper is accepted.  
