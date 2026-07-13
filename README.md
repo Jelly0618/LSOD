@@ -1,6 +1,9 @@
 # LSOD
 
 
+通过网盘分享的文件：LSOD-Dataset.zip
+链接: https://pan.baidu.com/s/1-_HiJA2GwqgDaHQVUDMPuw 提取码: 7jnm 
+
 
 (1)Our code and dataset will be made public in this project after the paper is accepted.  
 (2)We have uploaded some example samples from the dataset in this project.  
