@@ -1,26 +1,79 @@
+<div align="center">
+
 # LSOD
 
+### A Long-Range Forward-Looking Sonar Object Dataset
 
-通过网盘分享的文件：LSOD-Dataset.zip
-链接: https://pan.baidu.com/s/1-_HiJA2GwqgDaHQVUDMPuw 提取码: 7jnm 
+[![Dataset](https://img.shields.io/badge/Dataset-Available-2E7D32?style=for-the-badge)](#dataset-download)
+[![Modality](https://img.shields.io/badge/Modality-Forward--Looking%20Sonar-0A66C2?style=for-the-badge)](#overview)
+[![Task](https://img.shields.io/badge/Task-Object%20Detection-B26A00?style=for-the-badge)](#overview)
 
+</div>
 
-(1)Our code and dataset will be made public in this project after the paper is accepted.  
-(2)We have uploaded some example samples from the dataset in this project.  
-(3)These are sonar images obtained by scanning at different distances underwater using forward looking sonar. The distances are 3m, 4m, 5m, 7m, 10m, 15m, 30m, and 40m, respectively.It can be learnt from the target change that when the scanning distance is farther away, the target's imaging target on the sonar image is smaller. Therefore, in real underwater scenarios, long-range search faces a serious small target problem.
-![image](https://github.com/lhlalj/LSOD/blob/main/img_2820_3m_1.2MHz.jpg)
-fig 1. Imaging at a scanning distance of 3m
-![image](https://github.com/lhlalj/LSOD/blob/main/img_338_4m_1.2MHz.jpg)
-fig 2. Imaging at a scanning distance of 4m
-![image](https://github.com/lhlalj/LSOD/blob/main/img_508_5m_1.2MHz.jpg)
-fig 3. Imaging at a scanning distance of 5m
-![image](https://github.com/lhlalj/LSOD/blob/main/img_509_7m_1.2MHz.jpg)
-fig 4. Imaging at a scanning distance of 7m
-![image](https://github.com/lhlalj/LSOD/blob/main/img_512_10m_1.2MHz.jpg)
-fig 5. Imaging at a scanning distance of 10m
-![image](https://github.com/lhlalj/LSOD/blob/main/img_514_15m_1.2MHz.jpg)
-fig 6. Imaging at a scanning distance of 15m
-![image](https://github.com/lhlalj/LSOD/blob/main/img_970_30m_1.2MHz.jpg)
-fig 7. Imaging at a scanning distance of 30m
-![image](https://github.com/lhlalj/LSOD/blob/main/img_941_40m_1.2MHz.jpg)
-fig 8. Imaging at a scanning distance of 40m
+---
+
+## Dataset Download
+
+The LSOD dataset can be downloaded from Baidu Netdisk:
+
+- **File:** `LSOD-Dataset.zip`
+- **Link:** [https://pan.baidu.com/s/1-_HiJA2GwqgDaHQVUDMPuw](https://pan.baidu.com/s/1-_HiJA2GwqgDaHQVUDMPuw)
+- **Extraction code:** `7jnm`
+
+## Overview
+
+LSOD is a forward-looking sonar dataset collected from underwater scanning scenarios. The dataset contains sonar images captured at different scanning distances, including **3 m, 4 m, 5 m, 7 m, 10 m, 15 m, 30 m, and 40 m**.
+
+These samples demonstrate a key challenge in real underwater search scenarios: as the scanning distance increases, the target becomes smaller and less distinguishable in sonar imagery. Therefore, long-range underwater search faces a serious **small-target detection** problem.
+
+Our code and dataset will continue to be updated in this project. We have also uploaded several representative samples from the dataset for preview.
+
+## Sample Images
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="img_2820_3m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 1.</b> Imaging at a scanning distance of <b>3 m</b>
+    </td>
+    <td align="center">
+      <img src="img_338_4m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 2.</b> Imaging at a scanning distance of <b>4 m</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="img_508_5m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 3.</b> Imaging at a scanning distance of <b>5 m</b>
+    </td>
+    <td align="center">
+      <img src="img_509_7m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 4.</b> Imaging at a scanning distance of <b>7 m</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="img_512_10m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 5.</b> Imaging at a scanning distance of <b>10 m</b>
+    </td>
+    <td align="center">
+      <img src="img_514_15m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 6.</b> Imaging at a scanning distance of <b>15 m</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="img_970_30m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 7.</b> Imaging at a scanning distance of <b>30 m</b>
+    </td>
+    <td align="center">
+      <img src="img_941_40m_1.2MHz.jpg" width="360"><br>
+      <b>Figure 8.</b> Imaging at a scanning distance of <b>40 m</b>
+    </td>
+  </tr>
+</table>
+
+## Notes
+
+The examples above show that the imaging size and visual clarity of the target decrease as the scanning distance becomes larger. This makes LSOD suitable for studying long-range underwater object detection and small-target recognition in forward-looking sonar images.
+
