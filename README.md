@@ -20,6 +20,24 @@ The LSOD dataset can be downloaded from Baidu Netdisk:
 - **Link:** [https://pan.baidu.com/s/1-_HiJA2GwqgDaHQVUDMPuw](https://pan.baidu.com/s/1-_HiJA2GwqgDaHQVUDMPuw)
 - **Extraction code:** `7jnm`
 
+## Citation
+
+If this dataset is helpful for your research, please cite our paper:
+
+```bibtex
+@article{LI2025128373,
+  title = {A lightweight detector for small targets using forward-looking sonar in underwater search scenarios},
+  journal = {Expert Systems with Applications},
+  volume = {290},
+  pages = {128373},
+  year = {2025},
+  issn = {0957-4174},
+  doi = {https://doi.org/10.1016/j.eswa.2025.128373},
+  url = {https://www.sciencedirect.com/science/article/pii/S095741742501992X},
+  author = {Jie Li and Wenpei Jiao and Jianlei Zhang and Chunyan Zhang and Ming Cao},
+}
+```
+
 ## Overview
 
 LSOD is a forward-looking sonar dataset collected from underwater scanning scenarios. The dataset contains sonar images captured at different scanning distances, including **3 m, 4 m, 5 m, 7 m, 10 m, 15 m, 30 m, and 40 m**.
@@ -76,4 +94,3 @@ Our code and dataset will continue to be updated in this project. We have also u
 ## Notes
 
 The examples above show that the imaging size and visual clarity of the target decrease as the scanning distance becomes larger. This makes LSOD suitable for studying long-range underwater object detection and small-target recognition in forward-looking sonar images.
-
